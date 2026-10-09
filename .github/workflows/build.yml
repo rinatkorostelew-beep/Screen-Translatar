@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/build-translator.yml"]
+    paths: [".github/workflows/build.yml"]
 
 permissions:
   contents: write
